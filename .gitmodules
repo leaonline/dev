@@ -18,3 +18,7 @@
 	path = leaonline-sessions
 	url = git@github.com:leaonline/leaonline-sessions.git
 	branch = master
+[submodule "leaonline-backend"]
+	path = leaonline-backend
+	url = git@github.com:leaonline/leaonline-backend.git
+	branch = master
