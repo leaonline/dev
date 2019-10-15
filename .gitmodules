@@ -1,0 +1,4 @@
+[submodule "leaonline-content"]
+	path = leaonline-content
+	url = git@github.com:leaonline/leaonline-content.git
+	branch = master
