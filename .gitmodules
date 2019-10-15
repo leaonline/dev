@@ -34,3 +34,7 @@
 	path = lib/interfaces
 	url = git@github.com:leaonline/interfaces.git
 	branch = master
+[submodule "lib/errors"]
+	path = lib/errors
+	url = git@github.com:leaonline/errors.git
+	branch = master
