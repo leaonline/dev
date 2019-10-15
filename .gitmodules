@@ -30,3 +30,7 @@
 	path = lib/utils
 	url = git@github.com:leaonline/utils.git
 	branch = master
+[submodule "lib/interfaces"]
+	path = lib/interfaces
+	url = git@github.com:leaonline/interfaces.git
+	branch = master
