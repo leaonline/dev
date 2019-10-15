@@ -50,3 +50,7 @@
 	path = liboauth/ddp-login-handler
 	url = git@github.com:leaonline/ddp-login-handler.git
 	branch = master
+[submodule "liboauth/meteor-accounts-oauth-lea-config-ui"]
+	path = liboauth/meteor-accounts-oauth-lea-config-ui
+	url = git@github.com:leaonline/meteor-accounts-oauth-lea-config-ui.git
+	branch = master
