@@ -26,3 +26,7 @@
 	path = lib/factories
 	url = git@github.com:leaonline/factories.git
 	branch = master
+[submodule "lib/utils"]
+	path = lib/utils
+	url = git@github.com:leaonline/utils.git
+	branch = master
