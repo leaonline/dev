@@ -38,3 +38,7 @@
 	path = lib/errors
 	url = git@github.com:leaonline/errors.git
 	branch = master
+[submodule "liboauth/meteor-accounts-oauth-lea"]
+	path = liboauth/meteor-accounts-oauth-lea
+	url = git@github.com:leaonline/meteor-accounts-oauth-lea.git
+	branch = master
