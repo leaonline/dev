@@ -22,3 +22,7 @@
 	path = leaonline-backend
 	url = git@github.com:leaonline/leaonline-backend.git
 	branch = master
+[submodule "lib/factories"]
+	path = lib/factories
+	url = git@github.com:leaonline/factories.git
+	branch = master
