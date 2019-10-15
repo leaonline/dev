@@ -10,3 +10,7 @@
 	path = leaonline-otulea
 	url = git@github.com:leaonline/leaonline-otulea.git
 	branch = master
+[submodule "leaonline-teacher"]
+	path = leaonline-teacher
+	url = git@github.com:leaonline/leaonline-teacher.git
+	branch = master
