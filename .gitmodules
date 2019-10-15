@@ -54,3 +54,11 @@
 	path = liboauth/meteor-accounts-oauth-lea-config-ui
 	url = git@github.com:leaonline/meteor-accounts-oauth-lea-config-ui.git
 	branch = master
+[submodule "liboauth/oauth2-server"]
+	path = liboauth/oauth2-server
+	url = git@github.com:leaonline/oauth2-server.git
+	branch = master
+[submodule "liboauth/meteor-accounts-lea"]
+	path = liboauth/meteor-accounts-lea
+	url = git@github.com:leaonline/meteor-accounts-lea.git
+	branch = master
