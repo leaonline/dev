@@ -46,3 +46,7 @@
 	path = liboauth/ddp-login
 	url = git@github.com:leaonline/ddp-login.git
 	branch = master
+[submodule "liboauth/ddp-login-handler"]
+	path = liboauth/ddp-login-handler
+	url = git@github.com:leaonline/ddp-login-handler.git
+	branch = master
