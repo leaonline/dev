@@ -62,3 +62,7 @@
 	path = liboauth/meteor-accounts-lea
 	url = git@github.com:leaonline/meteor-accounts-lea.git
 	branch = master
+[submodule "lib/corelib"]
+	path = lib/corelib
+	url = git@github.com:leaonline/corelib
+	branch = master
