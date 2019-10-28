@@ -66,3 +66,7 @@
 	path = lib/corelib
 	url = git@github.com:leaonline/corelib
 	branch = master
+[submodule "lib/webapp"]
+	path = lib/webapp
+	url = git@github.com:leaonline/webapp.git
+	branch = master
