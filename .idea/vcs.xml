@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/H5P-Nodejs-library" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/leaonline-accounts" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/leaonline-backend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/leaonline-content" vcs="Git" />
