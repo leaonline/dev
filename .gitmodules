@@ -70,3 +70,7 @@
 	path = lib/webapp
 	url = git@github.com:leaonline/webapp.git
 	branch = master
+[submodule "service-h5p"]
+	path = service-h5p
+	url = git@github.com:leaonline/service-h5p.git
+	branch = master
