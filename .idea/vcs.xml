@@ -6,6 +6,7 @@
     <mapping directory="$PROJECT_DIR$/leaonline-accounts" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/leaonline-backend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/leaonline-content" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/leaonline-items" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/leaonline-otulea" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/leaonline-sessions" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/leaonline-teacher" vcs="Git" />
