@@ -8,6 +8,7 @@
       <excludeFolder url="file://$MODULE_DIR$/leaonline-content/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/leaonline-items/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/leaonline-otulea/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/service-h5p/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
