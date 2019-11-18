@@ -17,11 +17,13 @@
     <mapping directory="$PROJECT_DIR$/lib/interfaces" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/utils" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/webapp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libext/h5p-extended-accessibility-formats" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/liboauth/ddp-login" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/liboauth/ddp-login-handler" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/liboauth/meteor-accounts-lea" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/liboauth/meteor-accounts-oauth-lea" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/liboauth/meteor-accounts-oauth-lea-config-ui" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/liboauth/oauth2-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/service-h5p" vcs="Git" />
   </component>
 </project>
