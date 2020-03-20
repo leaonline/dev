@@ -92,8 +92,8 @@ Should be used, when the invitee owns a mobile device with qr code scanner capab
 - **invitation link** - The same URL as the qr code resolves to. Should be used when a messenger
   or email communication has already been established.
 
-- **plain code** - 
-
+- **plain code** - The `code` of the invitation wihtout any hyperlink involved. Can only be used by logged in users
+  who enter this code in a specific form within their application.
 
 
 The instructor should be able to display all of the above mentioned visualizations in the following ways:
@@ -111,8 +111,11 @@ The instructor should be able to display all of the above mentioned visualizatio
 
 ### Step 3: Accept the invitation
 
-#### Mode A - Using a qr code
+The acceptance of an invitation requires an active step of the invitee(s). No action will keep the invitation in a 
+pending state. If the invitation has been expired and no action for acceptance has been taken, the invitation can be
+considered as denied.
 
-#### Mode B - Using an invitation link
+If the invitee has no account, a new account will be created and the respective login code will be delivered to the
+client device.
 
-#### Mode C - Using the plain code
+Once accepted, the participant is added to the course of the instructor and can from now on be managed by her.
