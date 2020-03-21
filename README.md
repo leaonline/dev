@@ -8,9 +8,10 @@ This is the main repository for documentation and development.
 
 You will find the following resources in this repository:
 
-* Introduction to lea.online
-* Applications and services overview
-* Developer documentation
+* [Introduction to lea.online](#introduction-to-lea.online)
+* [Applications and services overview](#applications-and-services-overview)
+* [Developer documentation](#developer-documentation)
+* [Contribution guidelines](#contribution-guidelines)
 
 ## Introduction to lea.online
 
@@ -18,7 +19,35 @@ All about lea.online, why, how, who etc.
 
 ## Applications and services overview
 
-Describe the arch in most high level view for a broad audience
+This section is explaining the lea.online system from an end-user perspective.
+If you are a looking for a technical documentation, you may look into the [developer documentation](#developer-documentation)
+
+The lea.online system consists of three main platforms with different focus:
+
+- **lea.app** - mobile learning application for functional participants
+- **otu.lea** - desktop diagnostics application for participants
+- **teacher** - desktop course and learning group management for instructors  
+
+### How it works
+
+Participants can obtain access to the lea.online system by either downloading the mobile app (yet to be released) or by
+accessing the websites of the learning or diagnostics application platforms.
+
+They can **anonymously register** with a single account, that is used across the system. The [OAuth2](https://oauth.net/2/)
+workflow ensures that no data is shared without proper authorization.
+
+### lea.app
+
+describe how the lea.app works here
+
+### otu.lea
+
+describe how otu.lea works here
+
+### teacher application
+
+describe how the teacher app works here  
+
 
 ## Developer documentation
 
@@ -54,7 +83,7 @@ https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
 https://git-scm.com/docs/git-submodule
 
-## Contribution guide
+## Contribution guidelines
 
 Describe how our contribution workflow looks like
 
