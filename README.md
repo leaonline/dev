@@ -53,7 +53,8 @@ describe how the teacher app works here
 
 ### Architecture
 
-Describe the arch from a more technical viewpoint
+The lea.online system is a network of applications and services.
+The following graphics is an overview of all involved services and applications:
 
 ![lea.online technical architecture](./architecture/level-0-system-overview.svg)
 
