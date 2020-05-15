@@ -34,4 +34,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/leaonline-backend/imports/ui/pages/translation/translation.js" />
+  </component>
 </project>
