@@ -74,3 +74,31 @@
 	path = service-h5p
 	url = git@github.com:leaonline/service-h5p.git
 	branch = master
+[submodule "lib/service-registry"]
+	path = lib/service-registry
+	url = git@github.com:leaonline/service-registry.git
+	branch = master
+[submodule "lib/collection-factory"]
+	path = lib/collection-factory
+	url = git@github.com:leaonline/collection-factory.git
+	branch = master
+[submodule "lib/files-collection-factory"]
+	path = lib/files-collection-factory
+	url = git@github.com:leaonline/files-collection-factory.git
+	branch = master
+[submodule "lib/method-factory"]
+	path = lib/method-factory
+	url = git@github.com:leaonline/method-factory.git
+	branch = master
+[submodule "lib/publication-factory"]
+	path = lib/publication-factory
+	url = git@github.com:leaonline/publication-factory.git
+	branch = master
+[submodule "lib/ratelimit-factory"]
+	path = lib/ratelimit-factory
+	url = git@github.com:leaonline/ratelimit-factory.git
+	branch = master
+[submodule "lib/webapp-factory"]
+	path = lib/webapp-factory
+	url = git@github.com:leaonline/http-factory.git
+	branch = master
