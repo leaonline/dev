@@ -102,3 +102,7 @@
 	path = lib/webapp-factory
 	url = git@github.com:leaonline/http-factory.git
 	branch = master
+[submodule "lib/theme"]
+	path = lib/theme
+	url = git@github.com:leaonline/theme.git
+	branch = master
