@@ -106,3 +106,7 @@
 	path = lib/theme
 	url = git@github.com:leaonline/theme.git
 	branch = master
+[submodule "lib/ui"]
+	path = lib/ui
+	url = git@github.com:leaonline/ui.git
+	branch = master
