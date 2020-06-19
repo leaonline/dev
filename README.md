@@ -15,7 +15,10 @@ You will find the following resources in this repository:
 
 ## Introduction to lea.online
 
-All about lea.online, why, how, who etc.
+lea.online (lea= literacy education for adults) is a systematic approach to cover diagnotics and learning strategies for functional illiterates.
+Currently it is tightly coupled towards a certain competency model for most basic German literacy education for adults.
+In the future we may better decouple the competency model from the implementation, so we can provide this system
+also for other languages.
 
 ## Applications and services overview
 
@@ -25,8 +28,16 @@ If you are a looking for a technical documentation, you may look into the [devel
 The lea.online system consists of three main platforms with different focus:
 
 - **lea.app** - mobile learning application for functional participants
-- **otu.lea** - desktop diagnostics application for participants
-- **teacher** - desktop course and learning group management for instructors  
+- **[otu.lea](https://github.com/leaonline/leaonline-otulea)** - desktop diagnostics application for participants 
+- **[teacher](https://github.com/leaonline/leaonline-teacher)** - desktop course and learning group management for instructors  
+
+These applications communicate with different other applications from the service landscape:
+
+- **[accounts](https://github.com/leaonline/leaonline-accounts)** - OAuth2 authentication service to authenticate users and authorize services
+- **[backend](https://github.com/leaonline/leaonline-backend)** - editor and management application to manage content and app/service configurations
+- **[content](https://github.com/leaonline/leaonline-content)** - stores all the static content, consumed by the main platforms
+- **[sessions](https://github.com/leaonline/leaonline-sessions)** - stores all the sessions of started / completed units and item responses and their scores
+- **evaluation** - evaluates the responses and replies, which competencies have been fulfilled to which extend 
 
 ### How it works
 
@@ -36,17 +47,6 @@ accessing the websites of the learning or diagnostics application platforms.
 They can **anonymously register** with a single account, that is used across the system. The [OAuth2](https://oauth.net/2/)
 workflow ensures that no data is shared without proper authorization.
 
-### lea.app
-
-describe how the lea.app works here
-
-### otu.lea
-
-describe how otu.lea works here
-
-### teacher application
-
-describe how the teacher app works here  
 
 
 ## Developer documentation
@@ -86,7 +86,7 @@ https://git-scm.com/docs/git-submodule
 
 ## Contribution guidelines
 
-Describe how our contribution workflow looks like
+We appreciate every contribution to this project! Please always open an issue, before opening a PR.
 
 ## License
 
