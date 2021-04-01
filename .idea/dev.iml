@@ -4,7 +4,6 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/leaonline-accounts/.meteor/local" />
-      <excludeFolder url="file://$MODULE_DIR$/leaonline-app/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/leaonline-backend/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/leaonline-content/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/leaonline-items/.meteor/local" />
