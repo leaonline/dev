@@ -12,10 +12,12 @@
       <excludeFolder url="file://$MODULE_DIR$/leaonline-teacher/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/lib/corelib/test-proxy/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/lib/corelib/testproxy/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/files-collection-factory/test-proxy/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/lib/meteor-autoform/testapp/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/lib/meteor-autoform/testdummy/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/lib/meteor-autoform/testdummy/packages/meteor-mocha/tests/dummy_app/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/lib/meteor-blaze-bs4/examples/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/ui/test-proxy/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/service-h5p/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
