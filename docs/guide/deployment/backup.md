@@ -66,7 +66,7 @@ log_message() {
 log_message "Creating MongoDB backup at $OUTPUT_PATH"
 
 # first create the mongodump inside the docker container
-docker exec -it mongodb mongodump --archive=/root/mongodump.gz --gzip --quiet >> "$LOG_FILE" 2>&1
+docker exec mongodb mongodump --archive=/root/mongodump.gz --gzip --quiet >> "$LOG_FILE" 2>&1
 
 # then copy it to the host machine
 log_message "Copying backup to host machine..."
@@ -74,7 +74,7 @@ docker cp mongodb:/root/mongodump.gz "$OUTPUT_PATH" >> "$LOG_FILE" 2>&1
 
 # finally remove the temporary archive inside the container
 log_message "Cleaning up temporary files inside the container..."
-docker exec -it mongodb rm -f /root/mongodump.gz >> "$LOG_FILE" 2>&1
+docker exec mongodb rm -f /root/mongodump.gz >> "$LOG_FILE" 2>&1
 
 # update permissions on the file
 log_message "Setting permissions on the backup file..."
@@ -519,7 +519,7 @@ crontab -e
 Add the following line to run the pull script every day at 3am:
 
 ```bash
-0 3 * * * /path/to/pull.sh --latest
+0 3 * * * /path/to/pull.sh --config /path/to/pull.config --latest
 ```
 Save and exit the crontab editor.
 
